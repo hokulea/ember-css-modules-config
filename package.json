@@ -6,18 +6,18 @@
     "ember-addon",
     "ember-css-modules-plugin"
   ],
-  "repository": "",
   "license": "MIT",
   "author": "",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hokulea/ember-css-modules-config.git"
   },
   "scripts": {
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
     "lint:js": "eslint .",
     "start": "ember serve",
+    "release": "release-it",
     "test": "npm-run-all lint:* test:*",
     "test:ember": "ember test",
     "_test:ember-compatibility": "ember try:each"
