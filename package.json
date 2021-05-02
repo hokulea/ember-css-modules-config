@@ -1,6 +1,6 @@
 {
   "name": "@hokulea/ember-css-modules-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "CSS Modules config for hokulea",
   "keywords": [
     "ember-addon",
